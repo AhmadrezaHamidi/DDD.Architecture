@@ -1,0 +1,12 @@
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\bin\Debug\net7.0\MyApp.Domain.deps.json
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\bin\Debug\net7.0\MyApp.Domain.dll
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\bin\Debug\net7.0\MyApp.Domain.pdb
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\obj\Debug\net7.0\MyApp.Domain.csproj.AssemblyReference.cache
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\obj\Debug\net7.0\MyApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\obj\Debug\net7.0\MyApp.Domain.AssemblyInfoInputs.cache
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\obj\Debug\net7.0\MyApp.Domain.AssemblyInfo.cs
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\obj\Debug\net7.0\MyApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\obj\Debug\net7.0\MyApp.Domain.dll
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\obj\Debug\net7.0\refint\MyApp.Domain.dll
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\obj\Debug\net7.0\MyApp.Domain.pdb
+C:\Users\a.hamidi\source\repos\DDD.Architecture\MyApp.Domain\obj\Debug\net7.0\ref\MyApp.Domain.dll
