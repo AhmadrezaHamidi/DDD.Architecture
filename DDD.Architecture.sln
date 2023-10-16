@@ -14,8 +14,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Application", "MyApp.Application\MyApp.Application.csproj", "{4467E64C-8753-4E0D-909E-96CC5C52AEF8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Infrastructure", "MyApp.Infrastructure\MyApp.Infrastructure.csproj", "{00C736D8-1972-4112-B7EB-A461BDA36C1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEC3C8C8-9FCF-46BB-BC98-C57ABD87989D} = {BEC3C8C8-9FCF-46BB-BC98-C57ABD87989D}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Persistance.Mongo", "MyApp.Persistance.Mongo\MyApp.Persistance.Mongo.csproj", "{0B08251A-7E84-40B7-B125-F0D8A28780BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.UI", "MyApp.UI\MyApp.UI.csproj", "{76CDB010-B9CE-4C71-A7BB-6F0F76E73C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Api", "MyApp.Api\MyApp.Api.csproj", "{45CFC158-EBB5-428F-BC7B-BFCE9BE720C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Application.Conteract", "MyApp.Application.Conteract\MyApp.Application.Conteract.csproj", "{B3888964-776B-41DB-8E22-FD9A8485993D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4467E64C-8753-4E0D-909E-96CC5C52AEF8} = {4467E64C-8753-4E0D-909E-96CC5C52AEF8}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +51,18 @@ Global
 		{0B08251A-7E84-40B7-B125-F0D8A28780BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B08251A-7E84-40B7-B125-F0D8A28780BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B08251A-7E84-40B7-B125-F0D8A28780BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CDB010-B9CE-4C71-A7BB-6F0F76E73C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CDB010-B9CE-4C71-A7BB-6F0F76E73C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CDB010-B9CE-4C71-A7BB-6F0F76E73C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CDB010-B9CE-4C71-A7BB-6F0F76E73C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CFC158-EBB5-428F-BC7B-BFCE9BE720C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CFC158-EBB5-428F-BC7B-BFCE9BE720C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CFC158-EBB5-428F-BC7B-BFCE9BE720C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CFC158-EBB5-428F-BC7B-BFCE9BE720C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3888964-776B-41DB-8E22-FD9A8485993D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3888964-776B-41DB-8E22-FD9A8485993D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3888964-776B-41DB-8E22-FD9A8485993D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3888964-776B-41DB-8E22-FD9A8485993D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +72,7 @@ Global
 		{4467E64C-8753-4E0D-909E-96CC5C52AEF8} = {FBB3703F-F83C-4C09-BD14-3EA0C0769940}
 		{00C736D8-1972-4112-B7EB-A461BDA36C1A} = {7B6CFBC6-DB28-4C1B-B27B-41272A0A40C6}
 		{0B08251A-7E84-40B7-B125-F0D8A28780BB} = {7B6CFBC6-DB28-4C1B-B27B-41272A0A40C6}
+		{B3888964-776B-41DB-8E22-FD9A8485993D} = {FBB3703F-F83C-4C09-BD14-3EA0C0769940}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67A38F30-FECE-4EF0-B0E2-9D9037460867}

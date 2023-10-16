@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyApp.Domain.Model
 {
-    internal interface IprojectReposetory
+    public interface IprojectReposetory
     {
     }
 }

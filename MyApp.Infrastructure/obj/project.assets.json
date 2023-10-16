@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "MyApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyApp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MyApp.Domain/MyApp.Domain.csproj",
+      "msbuildProject": "../MyApp.Domain/MyApp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "MyApp.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\a.hamidi\\.nuget\\packages\\": {}
@@ -34,7 +53,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\a.hamidi\\source\\repos\\DDD.Architecture\\MyApp.Domain\\MyApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\a.hamidi\\source\\repos\\DDD.Architecture\\MyApp.Domain\\MyApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
